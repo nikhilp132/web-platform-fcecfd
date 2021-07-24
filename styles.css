@@ -1,0 +1,14 @@
+body {
+  background: orange;
+}
+
+.frame {
+  position: relative;
+  margin: auto;
+  height: 500px;
+  width: 400px;
+  background-color: rebeccapurple;
+  /* background: url('https://thumbs.dreamstime.com/b/vertical-scenery-frozen-forest-snow-covered-tiny-wooden-chu-rural-bavarian-region-allgaeu-church-under-morning-dawn-sky-78324646.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
