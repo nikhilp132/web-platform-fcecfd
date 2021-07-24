@@ -1,7 +1,9 @@
 console.log('hello!');
 
 $(document).ready(function() {
-  $('.mainContainer');
+  // $('.mainContainer');
 });
 
-function createPlatform() {}
+function createBridge() {
+  $('.mainContainer').append('<div class="bridge"></div>');
+}
