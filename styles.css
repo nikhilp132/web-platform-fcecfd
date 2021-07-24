@@ -12,3 +12,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat; */
 }
+
+.mainContainer {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  background-color: rgb(100, 121, 46, 0.5);
+}
