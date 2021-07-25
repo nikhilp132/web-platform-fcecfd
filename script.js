@@ -5,8 +5,8 @@ $(document).ready(function() {
 });
 
 function startGame() {
+  $('.startButton').fadeOut();
   $('.platform1').animate({ left: '10px' }, function() {
-    $('.startButton').css('display', 'none');
     createBridge();
   });
 }
