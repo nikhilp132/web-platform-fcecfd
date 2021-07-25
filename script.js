@@ -12,7 +12,9 @@ function startGame() {
 }
 
 function createBridge() {
-  $('.mainContainer').append(
-    '<div class="platforms"><div class="bridge"></div></div>'
+  var platformDist = Math.random();
+
+  console = $('.mainContainer').append(
+    '<div class="platforms"><div class="bridge bridge2"></div></div>'
   );
 }
